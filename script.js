@@ -24,10 +24,6 @@ export function exercise02(args) {
 export function exercise03(args) {
   const input = args
   const result = []
-
-  for (let i = 0; i < input.length; i++) {
-    const currentElement = input[i]
-    if (currentElement.lengthProperty()) result.push(currentElement)
-  }
-  return result.join("")
+  let numOfChars = currentElement.match(/[e]/g).length
+  HTMLFormControlsCollection.log(numOfChars)
 }

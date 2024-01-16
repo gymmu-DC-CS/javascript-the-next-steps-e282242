@@ -88,20 +88,24 @@ export function exercise06(args) {
 
 export function exercise07(args) {
   const input = args
-
-  for (let i = 0; i < input.length; i++) {
-    const currentElement = input[i].charCodeAt()
-    if (
-      currentElement === 97 &&
-      currentElement === 110 &&
-      currentElement === 100
-    ) {
-      return true
-    }
-  }
-  return false
+  return input.includes("and") //if the input contains an "and" the output will be true, otheerwise it will always staid false//
 }
 
+//exercise 7, source:https://www.w3schools.com/jsref/jsref_includes.asp//
+
+//export function exercise07(args) {
+//const input = args
+
+//for (let i = 0; i < input.length; i++) {
+//const currentElement = input[i]
+//if (currentElement.includes("and")) {
+//return true
+//}
+// }
+//return false
+//}
+
+//currentElement === 97 && currentElement === 110 && currentElement === 100//
 //for (let i = 0; i < input.length; i++)// a loop, let=defines a value, in this case it defines, that i is 0. As long as i is smaller than the input, the loop should run. I++ sais that each time the loop runs, the value of i increases. When i is smaller than the input the statment in the { } will be excuted. Each loop checks the letter/number in the input. If all number s are checked the input will become greater than the lenght of the input and the loop stops. //
 
 export function exercise08(args) {

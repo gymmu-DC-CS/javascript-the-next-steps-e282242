@@ -145,3 +145,20 @@ export function exercise11(args) {
 
 //char= the character, example: a,b,c,d,e,f/ (https://www.shecodes.io/athena/24057-what-is-an-integer-in-javascript#:~:text=In%20JavaScript%2C%20an%20integer%20is,values%2C%20depending%20on%20the%20platform.) int= interger, is an number
 //(https://www.w3schools.com/js/js_string_methods.asp) a string is a function like .length or .substring()//
+
+export function exercise12(args) {
+  const input = args
+  const result = input.indexOf("e")
+  return result
+}
+//https:www.w3schools.com/jsref/tryit.asp?filename=tryjsref_indexof
+
+export function exercise14(args) {
+  let input = args
+  let index = 2
+  let result = input.charAt(index)
+
+  return "Character at " + (index + 1) + "th position is: " + result
+}
+
+// exercise 14, source: https://www.geeksforgeeks.org/how-to-get-character-of-specific-position-using-javascript/
